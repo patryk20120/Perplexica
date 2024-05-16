@@ -273,7 +273,7 @@ const SettingsDialog = ({
                         </>
                       )}
                     {/* Embedding models */}
-                    {config.embeddingModelProviders && (
+                    {/* {config.embeddingModelProviders && (
                       <div className="flex flex-col space-y-1">
                         <p className="text-white/70 text-sm">
                           Embedding model Provider
@@ -334,8 +334,8 @@ const SettingsDialog = ({
                           )}
                         </select>
                       </div>
-                    )}
-                    <div className="flex flex-col space-y-1">
+                    )} */}
+                    {/* <div className="flex flex-col space-y-1">
                       <p className="text-white/70 text-sm">OpenAI API Key</p>
                       <input
                         type="text"
@@ -379,7 +379,7 @@ const SettingsDialog = ({
                         }
                         className="bg-[#111111] px-3 py-2 flex items-center overflow-hidden border border-[#1C1C1C] text-white rounded-lg text-sm"
                       />
-                    </div>
+                    </div> */}
                   </div>
                 )}
                 {isLoading && (
